@@ -105,11 +105,6 @@ Notes: If `package.json` is missing, initialize a project with `npm init` or cre
    - Update `src/firebase.js` to read from env vars
    - Add a short guide for deploying to Firebase Hosting
 
-## Development tips and next steps
-
-- Add unit tests for core logic and simple end-to-end flows to ensure syncing works as expected.
-- Add ESLint/Prettier for consistent style.
-- Consider switching from whole-document sync to operational transforms (OT) or CRDTs if you need stronger conflict resolution for rich editing.
 
 ## Contributing
 
